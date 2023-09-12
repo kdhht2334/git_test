@@ -1,6 +1,7 @@
 from __future__ import annotations
 import torch
-import langchain
+import torch.nn as nn
+import torch.nn.functional as F
 import numpy as np
 
 a = torch.zeros((10, 10))
