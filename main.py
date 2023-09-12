@@ -1,5 +1,6 @@
 import PIL
-import numpy as np
+import torch
+import torch.nn as nn
 
-a = np.zeros((2, 5))
+a = torch.zeros((5, 5))
 print("Hello world!")
